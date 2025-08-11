@@ -1,4 +1,4 @@
-# Accessing and Working within the OpenScienceLab (OSL)
+# Accessing and Working within OpenScienceLab (OSL)
 
 **Resource:** OSL Video linked on the syllabus
 
