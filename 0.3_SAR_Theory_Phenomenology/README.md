@@ -1,4 +1,4 @@
-# SAR Theory Phenomenology
+# SAR Theory: Phenomenology
 
 **Resource:** SAR.ipynb 
 
