@@ -3,11 +3,10 @@
 **Resource:**
 
 + Data_Access_Accounts.ipynb
-+ GRFN.ipynb
-+ SSARA.ipynb
++ Search_and_Download_Test.ipynb
 
-Start with the `Data_Access_Accounts.ipynb` to see the required accounts. If you don't already have EarthData or OpenTopography accounts, then you need to register as described there.
+Start with `Data_Access_Accounts.ipynb` to see the required accounts. If you don't already have EarthData or OpenTopography accounts, then you need to register as described there.
 
-**Expected Outcome:** Students know the SAR platforms collecting data, where relevant SAR data can be found (data files, orbits, ancillary datasets like DEMs), and understand how to get access to the data and which tools are available to do so (SSARA, Vertex, ARIA Tools…). Students also learn how to intelligently limit the search to just the frames they want
+**Expected Outcome:** Students establish the necessary credentials and agreements to download data from online repositories of SAR imagery and topography. They can execute SSARA searches based on criteria of interest (satellite platform, date ranges, area of interest).
 
-**Assessment:** Short exercise to download ALOS and S-1 data with filters to students know how to get just the frames they want, and no extras. Student self-assessment of comfort level
+**Assessment:** Short exercise to download Sentinel-1 data and a digital elevation model.
