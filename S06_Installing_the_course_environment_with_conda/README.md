@@ -27,11 +27,25 @@ mamba env create -f earthscope_insar_env.yml
 Several of the packages you have installed expect files to be on your path. So we can write some configuration scripts that set up those variables.
 
 ### For ISCE
-Using your favorite text editor, make a file called `ISCE_config.sh`, containing the below:
+Using your favorite text editor, make a file called `ISCE_config.sh` in a place where you can access it easily, containing the below:
 ```
 export ISCE_HOME=$ISCE_INSTALL_ROOT/isce
 ```
 
 ### For mintpy
 Post-installation setup instructions can be found here: [https://github.com/insarlab/MintPy/blob/main/docs/installation.md](https://github.com/insarlab/MintPy/blob/main/docs/installation.md)
+
+## 5. Let's go!
+Assuming that everything worked, then you can start to use your new environment. First you need to activate it:
+```
+conda activate earthscope_insar
+```
+Next you need to run your configuration script (include the path to the file in this command if necessary):
+```
+source ISCE_config.sh
+```
+And finally, go to a directory containing Jupyter notebooks and open Jupyter!
+```
+jupyter notebook
+```
 
