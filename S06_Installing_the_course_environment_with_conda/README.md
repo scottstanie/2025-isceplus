@@ -22,3 +22,16 @@ Navigate to the location of your downloaded environment file, and run a command 
 mamba env create -f earthscope_insar_env.yml
 ```
 (Or substitute the name of the environment file you'd like to install instead. If, for some inexplicable reason, you didn't install `mamba` then you can run the above command with `conda` instad of `mamba`, but it will take a lot longer.)
+
+## 4. Finish up your setup
+Several of the packages you have installed expect files to be on your path. So we can write some configuration scripts that set up those variables.
+
+### For ISCE
+Using your favorite text editor, make a file called `ISCE_config.sh`, containing the below:
+```
+export ISCE_HOME=$ISCE_INSTALL_ROOT/isce
+```
+
+### For mintpy
+Post-installation setup instructions can be found here: [https://github.com/insarlab/MintPy/blob/main/docs/installation.md](https://github.com/insarlab/MintPy/blob/main/docs/installation.md)
+
